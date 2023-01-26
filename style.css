@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    
+}
+
+body{
+    background-color: #f4f3f8;
+}
+
+#navbarMonstera{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 40px;
+    margin-left: 40px;
+    margin-top: 40px;
+}
+
+#navFirst{
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+#navMid{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    
+}
+
+#navMid > div > h4{
+    margin-right: 80px;
+    font-family: 'Allerta';
+    text-decoration: none;
+    font-weight: 200;
+    font-size: 25px;
+}
+#navMid > div > h4:hover{
+    border-bottom: 3px solid #000;
+    
+}
+#navEnd{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#navEnd > div > img{
+    margin-right: 40px;
+    
+}
+
+#midWhole{
+    display: flex;
+    justify-content: space-between;
+}
+
+#midWholePart11{
+    
+    text-align: left;
+    
+}
+#midWholePart11 > div > ul{
+    list-style-type: disc;
+    margin-left: 50px;
+}
+
+#monstera{
+    font-family: 'Allerta';
+    font-weight: 999;
+
+    font-size: 80px;
+    margin-top: 200px;
+
+    
+}
+
+#midWholePart11 > div > ul > li{
+    font-family: 'Abel';
+    font-size: 20px;
+    margin-right: 200px;
+    font-weight: 300;
+    
+}
+#midWholePart12{
+    margin-left: 70px;
+    margin-top: 70px;
+}
+
+  #midWholePart121 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background-color: #466d50;
+    font-family: 'Abel';
+    font-size: 20px;
+    color: #f4f3f8;
+    padding: 8px 20px;
+    margin: 10px 0px;
+    border-radius: 40px;
+    width: fit-content;
+    
+  }
+
+  #midWholePart13{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+  }
+  .midWholePart13Parts{
+    display: flex;
+    gap: 10px;
+    margin-top: 80px;
+    margin-left: 60px;
+  }
+.midWholePart13Parts .text{
+  
+    font-family: 'Abel';
+    font-size: 12px;
+    font-weight: 400;
+    width: 90%;
+}
+
+.midWholePart13Parts > div >h4{
+    font-family: 'Allerta';
+    font-size: 500;
+    font-size: 25px;
+}
+
+#imgMain{
+    width: 600px;
+    height: auto;
+    margin-top: 50px;
+}
